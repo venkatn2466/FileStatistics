@@ -62,12 +62,25 @@ Open `index.html` in your browser to access the front-end and upload a text file
 ## Error Handling
 
 The application handles:
-- Invalid file formats (only `.txt` files are accepted), File Size and also Empty Files
+- Invalid file formats (only `.txt` files are accepted), 
+- File Size (Configurable) 
+- Empty Files
 - File processing errors.
 
 ## Testing
 
 Unit tests are provided for the service layer, Repository layer to ensure the correctness of the text statistics computation.
+
+### Tech Used:
+ #### Front End : Html, CSS, javascript
+ #### Backend : Java 17 ,SpringBoot,Maven (Build Tool) ,In memory Caching ,Junits ,Mockito – Unit tests
+ #### IDE : Intellij(Backend), Visual Studio(Front end) Documentation Tool – OpenApi (Swagger 3.0) – Details api documentation and api execution on backend server url itself.
+
+ #### Concepts Used :
+   - Multithreading,
+   - Chunking (breaking to chunk sizes)
+   - Code Extendable to support files of different formats – currently implementation has Text File Only. Design is made Generic to easily extend the code than changing existing code logic. Design patterns used: 
+     Factory Pattern, Builder Pattern and few more intrinsically.
 
 ## Future Improvements
 
