@@ -75,6 +75,7 @@ Unit tests are provided for the service layer, Repository layer to ensure the co
  #### Front End : Html, CSS, javascript
  #### Backend : Java 17 ,SpringBoot,Maven (Build Tool) ,In memory Caching ,Junits ,Mockito – Unit tests
  #### IDE : Intellij(Backend), Visual Studio(Front end) Documentation Tool – OpenApi (Swagger 3.0) – Details api documentation and api execution on backend server url itself.
+ #### TestTool : Postman Web client
 
  #### Concepts Used :
    - Multithreading,
