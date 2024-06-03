@@ -11,7 +11,7 @@ This application allows users to upload a text file and view various statistics 
 
 ## How to Run the Project
 
- - In Home Page of Repo, Can also use #### FileStatisticAssignmentGuide.pdf as a Guide to run and understand Project,that contains screenshots of Running Project as well
+ - In Home Page of Repo, Can also use FileStatisticAssignmentGuide.pdf as a Guide to run and understand Project,that contains screenshots of Running Project as well
 
 ### Prerequisites
 
