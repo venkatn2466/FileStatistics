@@ -1,0 +1,25 @@
+{
+
+    "name": "text-file-uploader",
+   
+    "version": "1.0.0",
+   
+    "description": "A simple text file uploader with API integration",
+   
+    "scripts": {
+   
+      "start": "http-server src -c-1 -o -a localhost -p 8080"
+   
+    },
+   
+    "author": "Your Name",
+   
+    "license": "MIT",
+   
+    "dependencies": {
+   
+      "http-server": "^0.12.3"
+   
+    }
+   
+   }

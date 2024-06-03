@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>File Uploader</title>
+
+ <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+
+
+<body>
+
+ <div class="container">
+
+   <h1>File Uploader</h1>
+
+   <div>
+
+     <label for="fileType">File Type:</label>
+
+     <select id="fileType">
+
+       <option value="text">Text File</option>
+
+       <option value="text">CSV file</option>
+
+     </select>
+
+   </div>
+
+   <form id="uploadForm">
+
+     <input type="file" id="fileInput" accept=".txt">
+
+     <button type="submit" id="submitBtn">Upload File</button>
+
+   </form>
+
+   <div id="status"></div>
+
+   <button id="viewHistoryBtn">View History</button>
+
+   <div id="errorModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="errorMessage"></p>
+    </div>
+  </div>
+
+   <table id="historyTable" style="display: none;">
+
+   </table>
+
+ </div>
+
+ <script src="script.js"></script>
+
+</body>
+
+
+
+
+</html>
