@@ -4,6 +4,11 @@
 
 This application allows users to upload a text file and view various statistics about the text, including:
 - Number of words
+- The file is processed to generate result on:
+1. Total count of words:
+a. Criteria to qualify as word:
+   ##### Should contain atleast one letter( a,abc,abc@, #ansd, asd4jj)
+   ##### Not a word( 333, @# , @ - just symbols or numbers and both – not considered in count)
 - Number of letters
 - Number of symbols
 - Top three most common words
