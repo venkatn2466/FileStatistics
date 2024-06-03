@@ -20,8 +20,12 @@ This application allows users to upload a text file and view various statistics 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/FileStatistic/textfilestats.git
-    cd textfilestats
+    git clone https://github.com/venkatn2466/FileStatistics.git
+    cd FileStatisitcs
+    This is backend code - You run maven commands to build it and spring boot is run on default localHost:8080 server that can be changed in application.properties for port if port conflict.
+    Once server is Up, can access Open Api UI(Swagger 3.0) in
+    # Swagger url :http://localhost:8080/swagger-ui/index.html
+     Can view APi Project Documentation on API's and also run from this URL.
     ```
 
 2. Build the project:
@@ -34,7 +38,18 @@ This application allows users to upload a text file and view various statistics 
     mvn spring-boot:run
     ```
 
-4. Open `index.html` in your browser to access the front-end and upload a text file.
+4.  Running UI Steps:
+    In Home Page of Repo
+    cd UiFileStats
+    Open this folder in visual Studio for Ease of code and check and building
+    Install Live Server Extension in Visual Studio
+    Be Present in index.html file
+    Launch live server from icon at boom left of window
+    Browser open Automatically running at 5500 Port like this
+    # Url : http://127.0.0.1:5500/src/index.html
+    Alternatively, if nodeJS , npm is installed can run below commands
+    # npm i to install liver server dependency and then run npm start command
+Open `index.html` in your browser to access the front-end and upload a text file.
 
 ## Design Choices
 
