@@ -46,9 +46,9 @@ This application allows users to upload a text file and view various statistics 
      - Be Present in index.html file
      - Launch live server from icon at boom left of window
     Browser open Automatically running at 5500 Port like this
-    # Url : http://127.0.0.1:5500/src/index.html
+    ### Url : http://127.0.0.1:5500/src/index.html
     Alternatively, if nodeJS , npm is installed can run below commands
-    # npm i to install liver server dependency and then run npm start command
+    ### npm i to install liver server dependency and then run npm start command
 Open `index.html` in your browser to access the front-end and upload a text file.
 
 ## Design Choices
