@@ -39,12 +39,12 @@ This application allows users to upload a text file and view various statistics 
     ```
 
 4.  Running UI Steps:
-    In Home Page of Repo
-    cd UiFileStats
-    Open this folder in visual Studio for Ease of code and check and building
-    Install Live Server Extension in Visual Studio
-    Be Present in index.html file
-    Launch live server from icon at boom left of window
+     - In Home Page of Repo
+     - cd UiFileStats
+     - Open this folder in visual Studio for Ease of code and check and building
+     - Install Live Server Extension in Visual Studio
+     - Be Present in index.html file
+     - Launch live server from icon at boom left of window
     Browser open Automatically running at 5500 Port like this
     # Url : http://127.0.0.1:5500/src/index.html
     Alternatively, if nodeJS , npm is installed can run below commands
